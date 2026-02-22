@@ -4,7 +4,7 @@ Open-source AI architecture, cognitive systems, and developer tooling research.
 
 | Project | What It Does | Stack |
 |---------|-------------|-------|
-| **[Forge](https://github.com/mollendorff-ai/forge)** | YAML-based financial modeling with Excel formula evaluation | Rust |
+| **[Forge](https://github.com/mollendorff-ai/forge)** | AI-native financial modeling — YAML that LLMs read, write, and validate deterministically | Rust |
 | **[DANEEL](https://github.com/mollendorff-ai/daneel)** | Cognitive architecture research (TMI implementation) | Rust, Redis, Qdrant |
 | **[daneel-web](https://github.com/mollendorff-ai/daneel-web)** | Real-time WASM observatory for DANEEL — [timmy.mollendorff.ai](https://timmy.mollendorff.ai) | Rust, Leptos, Axum |
 | **[Asimov](https://github.com/mollendorff-ai/asimov)** | AI session orchestration for coding CLIs | Shell/Bash |
