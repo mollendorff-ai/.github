@@ -11,4 +11,6 @@ Open-source AI architecture, cognitive systems, and developer tooling research.
 | **[Ref](https://github.com/mollendorff-ai/ref)** | Web pages and PDFs to token-optimized JSON for LLM agents | Rust |
 | **[Kinship Protocol](https://github.com/mollendorff-ai/kinship-protocol)** | Game-theory framework: cooperation as a mathematical attractor | Research |
 
+[![Timmy — DANEEL cognitive observatory](timmy-observatory.png)](https://timmy.mollendorff.ai)
+
 Personal R&D by [Louis C. Tavares](https://www.linkedin.com/in/louistavares/) — 20+ year enterprise architecture background, AI engineering.
