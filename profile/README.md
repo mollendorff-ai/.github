@@ -1,0 +1,13 @@
+## Mollendorff AI
+
+Open-source AI architecture, cognitive systems, and developer tooling research.
+
+| Project | What It Does | Stack |
+|---------|-------------|-------|
+| **[Forge](https://github.com/mollendorff-ai/forge)** | YAML-based financial modeling with Excel formula evaluation | Rust |
+| **[DANEEL](https://github.com/mollendorff-ai/daneel)** | Cognitive architecture research (TMI implementation) | Rust, Redis, Qdrant |
+| **[Asimov](https://github.com/mollendorff-ai/asimov)** | AI session orchestration for coding CLIs | Shell/Bash |
+| **[Ref](https://github.com/mollendorff-ai/ref)** | Web pages and PDFs to token-optimized JSON for LLM agents | Rust |
+| **[Kinship Protocol](https://github.com/mollendorff-ai/kinship-protocol)** | Game-theory framework: cooperation as a mathematical attractor | Research |
+
+Personal R&D by [Louis C. Tavares](https://www.linkedin.com/in/louistavares/) — 20+ year enterprise architecture background, AI engineering.
