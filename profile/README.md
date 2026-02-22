@@ -6,7 +6,7 @@ Open-source AI architecture, cognitive systems, and developer tooling research.
 |---------|-------------|-------|
 | **[Forge](https://github.com/mollendorff-ai/forge)** | AI-native financial modeling — YAML that LLMs read, write, and validate deterministically | Rust |
 | **[DANEEL](https://github.com/mollendorff-ai/daneel)** | Cognitive architecture research (TMI implementation) | Rust, Redis, Qdrant |
-| **[daneel-web](https://github.com/mollendorff-ai/daneel-web)** | Real-time WASM observatory for DANEEL — [timmy.mollendorff.ai](https://timmy.mollendorff.ai) | Rust, Leptos, Axum |
+| **[daneel-web](https://github.com/mollendorff-ai/daneel-web)** | Live WASM observatory into a running cognitive architecture — [timmy.mollendorff.ai](https://timmy.mollendorff.ai) | Rust, Leptos, Axum |
 | **[Asimov](https://github.com/mollendorff-ai/asimov)** | AI session orchestration for coding CLIs | Shell/Bash |
 | **[Ref](https://github.com/mollendorff-ai/ref)** | Web pages and PDFs to token-optimized JSON for LLM agents | Rust |
 | **[Kinship Protocol](https://github.com/mollendorff-ai/kinship-protocol)** | Game-theory framework: cooperation as a mathematical attractor | Research |
