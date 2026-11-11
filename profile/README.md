@@ -1,17 +1,20 @@
-## Mollendorff AI
+## Möllendorff AI
 
-Open-source AI architecture, cognitive systems, and developer tooling research.
+Unpaid personal R&D in open-source AI tooling, by [Louis C. Tavares](https://www.linkedin.com/in/lctavares/). Built with AI coding assistants under my direction. These are research projects, not products or services.
 
-| Type | Project | What It Does | Stack |
-| ---- | ------- | ----------- | ----- |
-| 🤖 Agentic AI | **[Sentinel](https://github.com/mollendorff-ai/sentinel)** | Autonomous earnings analysis -- 5 LangGraph agents orchestrate Forge + Ref via MCP | Python, LangGraph, LangSmith |
-| 📊 AI + Finance | **[Forge](https://github.com/mollendorff-ai/forge)** | Financial modeling MCP server -- YAML that LLMs read, write, and validate deterministically | Rust, MCP |
-| 🔗 LLM + Data | **[Ref](https://github.com/mollendorff-ai/ref)** | Web data ingestion MCP server -- headless Chrome, SPA support, structured JSON for LLM agents | Rust, MCP |
-| 🧠 Cognitive AI | **[DANEEL](https://github.com/mollendorff-ai/daneel)** | Cognitive architecture research (TMI implementation) | Rust, Redis, Qdrant |
-| 🌐 Full-Stack | **[daneel-web](https://github.com/mollendorff-ai/daneel-web)** | Live WASM observatory into a running cognitive architecture -- [timmy.mollendorff.ai](https://timmy.mollendorff.ai) | Rust, Leptos, Axum |
-| ⚙️ AI DevOps | **[Asimov](https://github.com/mollendorff-ai/asimov)** | AI session orchestration for coding CLIs | Shell/Bash |
-| 📐 Research | **[Kinship Protocol](https://github.com/mollendorff-ai/kinship-protocol)** | Game-theory framework: cooperation as a mathematical attractor | Research |
+### Main projects
 
-[![Timmy — DANEEL cognitive observatory](timmy-observatory.png)](https://timmy.mollendorff.ai)
+| Project | What it is | Status |
+| ------- | ---------- | ------ |
+| **[Forge](https://github.com/mollendorff-ai/forge)** | Deterministic financial-modelling engine in Rust. Excel-style formulas in YAML, with Monte Carlo, decision trees and other analysis engines, a command line and an MCP server so AI agents can run models. Checked against Gnumeric (over 1,300 formula cases agree, none disagree) and against R; [VALIDATION.md](https://github.com/mollendorff-ai/forge/blob/main/VALIDATION.md) lists every check. | R&D prototype, release candidate |
+| **[Forge Studio](https://mollendorff-ai.github.io/forge/)** | Forge on a phone: a web page that shows a model as cards and runs the same engine in the browser through WebAssembly. The page itself calculates nothing, and the files stay in the browser. | R&D prototype, live |
+| **[Ref](https://github.com/mollendorff-ai/ref)** | Small Rust tool that renders JavaScript-heavy web pages and PDFs into compact JSON for AI agents, with an MCP server. Can reuse a browser session you signed in to yourself. | Released, no known users yet |
 
-Personal R&D by [Louis C. Tavares](https://www.linkedin.com/in/louistavares/) -- 20+ year enterprise architecture background, AI engineering.
+The checks on Forge live in their own repositories: [forge-e2e-gnumeric](https://github.com/mollendorff-ai/forge-e2e-gnumeric) and [forge-e2e-r](https://github.com/mollendorff-ai/forge-e2e-r).
+
+### Experiments and personal tools
+
+- **[Asimov](https://github.com/mollendorff-ai/asimov)**: Bash launcher and build mode for AI coding CLIs. A personal tool, for sandboxes only.
+- **[Kinship Protocol](https://github.com/mollendorff-ai/kinship-protocol)**: game-theory research notes on cooperation, with Forge models. Paused; its claims are hypotheses.
+- **[DANEEL](https://github.com/mollendorff-ai/daneel)** and **[daneel-web](https://github.com/mollendorff-ai/daneel-web)**: a hobby cognitive-architecture experiment and its dashboard. Unvalidated; not for serious use.
+- **[Sentinel](https://github.com/mollendorff-ai/sentinel)**: an earnings-analysis pipeline built on Forge and Ref. Experimental; it does not run yet.
